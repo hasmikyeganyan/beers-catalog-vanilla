@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.card {
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 10%);
+  transition: 0.3s;
+  width: 30%;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 10px 25px;
+}
+.card-wrapper {
+  text-decoration: none;
+  color: black;
+}
+.card > img {
+  width: 20%;
+}
+h4 {
+  font-weight: bold;
+}
+.back-btn {
+  border: solid 1px;
+  padding: 15px 25px;
+  transition: 0.3s;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 80px;
+}
+.back-btn:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
